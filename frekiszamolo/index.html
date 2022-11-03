@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="HU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frekiszamolo</title>
+</head>
+<body>
+
+    <ul>
+		 <a href="/">
+			 <li>kezdolap</li>
+		 </a>
+		 <a href="/frekiszamolo">
+			 <li>Frekiszámoló</li>
+		 </a>
+	 </ul>
+
+     <h1>Frekiszámoló</h1>
+
+     <form>
+        <label for="Induk">Add meg az induktivitás értékét:</label>
+        <input type="number" name="induk" id="induk">
+        <select name="mertekegyseg" id="mertekegyseg">
+            <option value="Henry">Henry</option>
+            <option value="MicroHenry">MicroHenry</option>
+            <option value="MiliHenry">MiliHenry</option>
+        </select>
+        <br>
+        <label for="kapacitas">Add meg az kapacitás értékét:</label>
+        <input type="number" name="kapacitás" id="kapacitas">
+        <input type="button" value="Számol" onclick="szamol()">
+        
+     </form>
+
+     <img style="width: 50%;" src="/img/Rezonancia+frekvencia.jpg" alt="">
+
+     <script>
+         let freki;
+        function szamol() {
+            
+        }
+     </script>
+
+<style>
+
+
+</style>
+</body>
+</html>
